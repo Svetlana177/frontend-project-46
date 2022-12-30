@@ -13,3 +13,4 @@ lint:
 gendiff:
 	node bin/gendiff.js -h
 
+.PHONY: gendiff

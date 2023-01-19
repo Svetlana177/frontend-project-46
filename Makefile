@@ -1,4 +1,7 @@
-install:
+install: install-deps
+	npx simple-git-hooks
+
+install-deps:
 	npm ci
 
 fix:
@@ -13,7 +16,7 @@ jest:
 	jest --watch
 
 test-coverage:
-	npx jest --coverage
+	npm test -- --coverage --coverageProvider=v8
 
 gendiff:
 	node bin/gendiff.js -h

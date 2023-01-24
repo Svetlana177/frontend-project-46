@@ -6,3 +6,15 @@
 
 Аскинема: Сравнение плоских файлов (JSON)
 <a href="https://asciinema.org/a/m0BY3Zbjio7r9SvTgnLMxpc2O" target="_blank"><img src="https://asciinema.org/a/m0BY3Zbjio7r9SvTgnLMxpc2O.svg" /></a>
+
+## Setup
+
+```bash
+make install
+```
+
+## Run tests
+
+```bash
+make test
+```

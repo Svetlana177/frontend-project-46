@@ -1,5 +1,9 @@
-import { actual, expectedResult } from '../src/parsePath.js';
+import { actualJson, expectedResult, actualYaml } from '../__fixtures__/prepare_for_test.js';
 
-test('gendiff', () => {
-  expect(actual).toEqual(expectedResult);
+test('gendiff JSON', () => {
+  expect(actualJson).toEqual(expectedResult);
+});
+
+test('gendiff yaml', () => {
+  expect(actualYaml).toEqual(expectedResult);
 });

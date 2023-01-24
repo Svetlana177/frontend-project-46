@@ -7,6 +7,8 @@
 Аскинема: Сравнение плоских файлов (JSON)
 <a href="https://asciinema.org/a/m0BY3Zbjio7r9SvTgnLMxpc2O" target="_blank"><img src="https://asciinema.org/a/m0BY3Zbjio7r9SvTgnLMxpc2O.svg" /></a>
 
+Аскинема: Сравнение плоских файлов (yaml, yml)
+[![asciicast](https://asciinema.org/a/K6g9LcOl3GQiwl6o1YPAg8M3j.svg)](https://asciinema.org/a/K6g9LcOl3GQiwl6o1YPAg8M3j)
 ## Setup
 
 ```bash
